@@ -1,0 +1,12 @@
+.vibelab/
+/.pico-env.json
+/assets/
+local.properties
+keystore.properties
+*.jks
+.gradle/
+/build/
+/app/build/
+.idea/
+.kotlin/
+.DS_Store

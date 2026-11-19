@@ -1,0 +1,44 @@
+app:
+  id: "7709628844977766440"
+  name: "悦动音乐"
+  slogan: "立体黑胶唱机悬浮眼前，播放本地音乐时唱片真实转动、频谱实时律动，把日常听歌变成一场小型空间演出。"
+  description: |-
+    悦动音乐 —— 把你的音乐，变成一场看得见的空间演出
+
+    悦动音乐是专为 PICO 空间设计的音乐播放应用。不再是一块平面播放器，而是一台真正“摆”在你面前的立体黑胶唱机——按下播放，唱片缓缓转起来，灯光般的频谱光柱随着音乐实时起伏。
+
+    - 真实的黑胶质感：精细建模的黑胶唱机，播放时唱片以真实转速旋转，启停带有自然的加减速过渡，黄铜色调呼应唱机本身的木质与金属质感。
+    - 音乐驱动的光效，不是预设动画：环绕唱机的频谱光柱由你正在播放的音乐实时驱动——响什么、光就跳什么，每一次播放都是独一无二的视觉律动。
+    - 播放你自己的本地音乐：直接读取设备本地音乐库，不限定曲库，你的收藏就是你的舞台。
+    - 顺手的播放列表：点开播放列表面板即可浏览全部本地曲目，点哪首播哪首，面板不会自动收起，方便连续试听、来回切换，看完点 X 关掉。
+    - 听完自动接下一首：一首歌自然播完，自动从本地歌单里随机挑一首本轮还没听过的曲目继续播放；一轮全部听完后停止播放。
+
+    找个安静的空间，戴上头显，让悦动音乐把你的歌单变成一场只属于你的黑胶秀。
+  tags:
+    - "影音娱乐"
+  category: "application"
+  icon: "assets/icon.jpg"
+  landscape: "assets/landscape.jpg"
+  detail_images:
+    - "assets/detail-1.png"
+    - "assets/detail-2.png"
+    - "assets/detail-3.png"
+    - "assets/detail-4.png"
+  videos: []
+version:
+  name: "V1.0.0"
+  notes: |-
+    - 全新上线：空间里的 3D 黑胶唱机，播放本地音乐时唱片真实转动
+    - 真实音频驱动的频谱光效，律动完全跟随你播放的音乐，不是预设动画
+    - 独立播放列表面板：随时浏览本地歌曲，点选即播，面板常驻方便连续切歌
+    - 一首播完自动随机接播下一首未听过的曲目，一轮听完自动停止
+    - 黄铜色系空间面板，已升级 PICO Spatial SDK 至 6.2.8
+build:
+  repo_url: "https://github.com/illusion-openlab/SpaceVinyl"
+  repo_visibility: "public"
+  tech_stack: "android_spatial"
+  ai_tool: "Claude Code"
+  ai_model: "claude-opus-4-6"
+  features:
+    - "none"
+  teammates: []
